@@ -1,0 +1,71 @@
+body {
+		background-image: url("images/back1.jpg");
+}
+
+fieldset{
+	border : none;
+}
+
+legend{
+	color : white;
+}
+
+
+div.box {
+	
+	padding:5px;
+    margin: 5px;
+    background-color: #ffffff; 
+    border: 4px solid ;
+	border-color : white;
+	border-radius:4px;
+    opacity: 0.4;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    -webkit-column-count: 2;
+    position: relative;
+}
+
+input[type="text"]
+{
+	position: absolute;
+	right:10px;
+	width:75%;
+	background-color: white;
+	opacity: 1;
+}
+
+.radio{
+	
+	position: absolute;
+	right: 680px;
+	top:25px;
+
+}
+
+textarea
+{
+	position: absolute;
+	right: 10px;
+	width:75%;
+}
+
+#textb
+{
+	height:60px;
+}
+ 
+
+.image_radio{
+	width : 15px;
+	height : 11px;
+}
+
+.button{
+	border-radius : 6px;
+	color : white;
+	align-left : center;
+	background-color : navy;
+	position : relative;
+	left : 50%;
+
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE>
+<html>
+	<head> 
+		<title>CSS Assignment 3</title> 
+		<link rel="stylesheet" type="text/css" href="css_style.css">
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+		<form method="GET" action="" >
+			<fieldset >
+				<legend> Step 1:Your details </legend>
+				<div class="box">	
+					Name <input type="text" name="name" placeholder="First name and Last Name" > </input>
+					<br>
+				</div> 
+				<div class="box">
+					Email 
+					<input type="text" name="email" placeholder="example@domain.com"> </input> 
+					<br>
+				</div>
+				<div class="box">
+					Phone 
+					<input type="text" name="phone" placeholder="e.g. +44750000"> </input>
+					<br> 
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend> Step 1:Delivery address </legend>
+				<div class="box" id="textb">
+					Address <textarea rows="4" cols="50" name="address"></textarea>
+				<br>
+				</div>
+				<div class="box">
+					Pincode <input type="text" name="pin"> </input>
+				<br>
+				</div>
+				<div class="box">
+				Country <input type="text" name="country" > </input>
+				<br>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Step 1:Card details </legend>
+				<div class="box">
+					Card Type <br><br><br><br>
+						<div class="radio">
+							<input type="radio" value ="agn" name="Visa"> <img src="images\visa1.png" alt="Visa_logo" class="image_radio"></img> Visa </input> &nbsp
+							<input type="radio" value ="agn" name="AmEx"> <img src="images\amex.png" alt="Amex_logo" class="image_radio"></img> AmEx</input> &nbsp
+							<input type="radio" value ="agn" name="Mastercard"> <img src="images\mastercard.png" alt="MasterCard_logo" class="image_radio"></img> Mastercard</input>
+						</div>
+					<br>
+				</div>
+				<div class="box">
+					Card Number <input type="text" name="card_num" > </input>
+				<br> 
+				</div>
+				<div class="box">
+					Security Code <input type="text" name="security_code"> </input>
+				<br>
+				</div>
+				<div class="box">
+					Name on card <input type="text" name="card_name" placeholder="Exact name as on the card"> </input>
+				<br>
+				</div>
+			</fieldset>
+			<button class="button" type="button" value="BUY IT" name="buy"> BUY IT </button>
+		</form>
+	</body>
+</html>
